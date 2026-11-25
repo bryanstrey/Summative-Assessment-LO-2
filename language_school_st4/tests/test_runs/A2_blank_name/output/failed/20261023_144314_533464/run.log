@@ -1,0 +1,5 @@
+2026-10-23 14:43:14,770 INFO STARTED run=20261023_144314_533464
+2026-10-23 14:43:14,771 INFO Input folder: tests/test_runs/A2_blank_name/input | pattern: enrollments_*.csv
+2026-10-23 14:43:14,771 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:14,771 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:14,776 ERROR FAILED: enrollments_2026-10-21.csv: blank student_name on CSV line(s) [4]

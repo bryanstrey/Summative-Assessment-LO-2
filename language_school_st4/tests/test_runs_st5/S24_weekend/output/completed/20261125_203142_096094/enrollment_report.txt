@@ -1,0 +1,44 @@
+Global Languages Academy - Enrollments with Exchange Rates (ST5)
+================================================================
+Run: 20261125_203142_096094
+Status: COMPLETED
+Generated: 2026-11-25 20:31:42
+SOURCE MODE: LIVE  - bytes returned by the real service in this run
+Rates file: frankfurter_BCB_USDBRL_2026-10-17_2026-10-24_20261125T233142.json
+Business period (enrollment dates): 2026-10-24 to 2026-10-24
+
+EXTERNAL INFORMATION USED
+Provider: Banco Central do Brasil (PTAX), relayed by Frankfurter API v2
+Endpoint: http://127.0.0.1:65220/v2/rates
+Parameters: from=2026-10-17, to=2026-10-24, base=USD, quotes=BRL, providers=BCB
+Acquired at (UTC): 2026-11-25T23:31:42+00:00
+Units: BRL per 1 USD (USD is the school's price currency)
+Rates in response: 8 (2026-10-14 to 2026-10-23)
+Use conditions: Public data, provided as is by Frankfurter; the underlying rates belong to the provider (Banco Central do Brasil) and its terms apply. Rates can be late, missing or revised. For informational budgeting only: not an accounting, tax or legal exchange rate (verify with the provider for those uses).
+
+INTERNAL DATA
+Enrollment files (1): enrollments_2026-10-24.csv
+Enrollments: 5  (unchanged by the join)
+
+RESULT
+Projected semester revenue: USD 12831.00 = BRL 68004.30
+By enrollment date:
+  - enrollments of 2026-10-24: rate 5.3000 (published 2026-10-23, previous publication day) -> 5 enrollments, USD 12831.00 = BRL 68004.30
+By course:
+  - Spanish: 2 enrollments, USD 5064.00 = BRL 26839.20
+  - English: 2 enrollments, USD 5025.00 = BRL 26632.50
+  - French: 1 enrollments, USD 2742.00 = BRL 14532.60
+
+CHECKS PASSED
+- Row count and USD total identical before and after the join.
+- Every enrollment found a rate (same day or latest earlier day within 5 days).
+- Every BRL value recomputed independently from USD x rate.
+- CSV and workbook read back and compared with the integrated data.
+
+LIMITATIONS
+- The conversion is an estimate for budgeting. It is not the rate at which any
+  payment was or will be converted, and not an accounting or tax rate.
+- 5 of 5 enrollments used the previous published rate (no rate on their own date).
+- The date of each enrollment is taken from the file name, not from a column.
+- Rates can be late or revised by the provider; a saved response is a snapshot.
+- Unrecognized coupons: 0 (no discount applied; see run.log).

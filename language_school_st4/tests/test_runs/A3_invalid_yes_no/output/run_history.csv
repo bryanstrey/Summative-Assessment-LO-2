@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144315_263006,2026-10-23 14:43:15,FAILED,2,0,"enrollments_2026-10-21.csv: invalid sibling_enrolled ['maybe'] on CSV line(s) [5]; allowed values: ['yes', 'no']",failed/20261023_144315_263006

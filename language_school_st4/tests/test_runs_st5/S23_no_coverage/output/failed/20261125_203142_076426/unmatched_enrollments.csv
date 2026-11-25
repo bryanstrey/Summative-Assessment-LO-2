@@ -1,0 +1,11 @@
+enrollment_id,student_name,course,sibling_enrolled,payment_method,renewal,coupon_code,base_tuition,discount_pct,discount_level,final_tuition,enrollment_fee,semester_total,list_tuition,discount_amount,source_file,source_line,enrollment_date,rate_match,rate_found
+E-1001,Maria Silva,English,yes,upfront,no,PROMO5,450.0,0.2,High discount,360.0,150.0,2310.0,2700.0,540.0,enrollments_2026-10-21.csv,2,2026-10-21,none,False
+E-1002,John Smith,Spanish,no,monthly,yes,,420.0,0.0,No discount,420.0,0.0,2520.0,2520.0,0.0,enrollments_2026-10-21.csv,3,2026-10-21,none,False
+E-1003,Ana Costa,French,yes,monthly,no,,480.0,0.1,Medium discount,432.0,150.0,2742.0,2880.0,288.0,enrollments_2026-10-21.csv,4,2026-10-21,none,False
+E-1004,Pedro Alves,English,no,upfront,no,,450.0,0.05,Low discount,427.5,150.0,2715.0,2700.0,135.0,enrollments_2026-10-21.csv,5,2026-10-21,none,False
+E-1005,Carla Mendes,Spanish,no,monthly,no,PROMO5,420.0,0.05,Low discount,399.0,150.0,2544.0,2520.0,126.0,enrollments_2026-10-21.csv,6,2026-10-21,none,False
+E-1006,Lucas Rocha,French,no,upfront,yes,,480.0,0.05,Low discount,456.0,0.0,2736.0,2880.0,144.0,enrollments_2026-10-22.csv,2,2026-10-22,none,False
+E-1007,Julia Martins,English,yes,upfront,yes,PROMO5,450.0,0.2,High discount,360.0,0.0,2160.0,2700.0,540.0,enrollments_2026-10-22.csv,3,2026-10-22,none,False
+E-1008,Rafael Lima,Spanish,no,monthly,no,,420.0,0.0,No discount,420.0,150.0,2670.0,2520.0,0.0,enrollments_2026-10-22.csv,4,2026-10-22,none,False
+E-1009,Beatriz Souza,French,yes,upfront,no,,480.0,0.15,High discount,408.0,150.0,2598.0,2880.0,432.0,enrollments_2026-10-22.csv,5,2026-10-22,none,False
+E-1010,Diego Ferreira,English,no,monthly,no,PROMO10,450.0,0.0,No discount,450.0,150.0,2850.0,2700.0,0.0,enrollments_2026-10-22.csv,6,2026-10-22,none,False

@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144310_514810,2026-10-23 14:43:10,FAILED,2,0,"enrollments_2026-10-22.csv: invalid course ['Italian'] on CSV line(s) [4]; allowed values: ['English', 'Spanish', 'French']",failed/20261023_144310_514810

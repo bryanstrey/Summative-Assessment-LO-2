@@ -1,0 +1,6 @@
+2026-11-25 20:31:42,170 INFO STARTED run=20261125_203142_170231 source_mode=live
+2026-11-25 20:31:42,170 INFO Selected 1 file(s): enrollments_today.csv
+2026-11-25 20:31:42,170 INFO Reading enrollments_today.csv
+2026-11-25 20:31:42,172 INFO Validated enrollments_today.csv: 5 rows
+2026-11-25 20:31:42,172 INFO Validated batch: 1 files, 5 enrollments
+2026-11-25 20:31:42,172 ERROR FAILED: Cannot read a date from the file name 'enrollments_today.csv' (expected enrollments_YYYY-MM-DD.csv).

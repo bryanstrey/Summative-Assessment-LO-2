@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_059966,2026-11-25 20:31:42,FAILED,live,,10,Implausible rate 520.0 on 2026-10-21: outside 1.0-20.0 BRL per 1 USD. The unit or the provider may have changed.,failed/20261125_203142_059966

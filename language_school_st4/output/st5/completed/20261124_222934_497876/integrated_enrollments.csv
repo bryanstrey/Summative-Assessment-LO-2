@@ -1,0 +1,11 @@
+enrollment_id,student_name,course,sibling_enrolled,payment_method,renewal,coupon_code,base_tuition,discount_pct,discount_level,final_tuition,enrollment_fee,semester_total,list_tuition,discount_amount,source_file,source_line,enrollment_date,fx_rate_date,fx_rate,rate_match,final_tuition_brl,semester_total_brl,discount_amount_brl
+E-1001,Maria Silva,English,yes,upfront,no,PROMO5,450.00,0.20,High discount,360.00,150.00,2310.00,2700.00,540.00,enrollments_2026-10-21.csv,2,2026-10-21,2026-10-21,5.20,same_day,1872.00,12012.00,2808.00
+E-1002,John Smith,Spanish,no,monthly,yes,,420.00,0.00,No discount,420.00,0.00,2520.00,2520.00,0.00,enrollments_2026-10-21.csv,3,2026-10-21,2026-10-21,5.20,same_day,2184.00,13104.00,0.00
+E-1003,Ana Costa,French,yes,monthly,no,,480.00,0.10,Medium discount,432.00,150.00,2742.00,2880.00,288.00,enrollments_2026-10-21.csv,4,2026-10-21,2026-10-21,5.20,same_day,2246.40,14258.40,1497.60
+E-1004,Pedro Alves,English,no,upfront,no,,450.00,0.05,Low discount,427.50,150.00,2715.00,2700.00,135.00,enrollments_2026-10-21.csv,5,2026-10-21,2026-10-21,5.20,same_day,2223.00,14118.00,702.00
+E-1005,Carla Mendes,Spanish,no,monthly,no,PROMO5,420.00,0.05,Low discount,399.00,150.00,2544.00,2520.00,126.00,enrollments_2026-10-21.csv,6,2026-10-21,2026-10-21,5.20,same_day,2074.80,13228.80,655.20
+E-1006,Lucas Rocha,French,no,upfront,yes,,480.00,0.05,Low discount,456.00,0.00,2736.00,2880.00,144.00,enrollments_2026-10-22.csv,2,2026-10-22,2026-10-22,5.25,same_day,2394.00,14364.00,756.00
+E-1007,Julia Martins,English,yes,upfront,yes,PROMO5,450.00,0.20,High discount,360.00,0.00,2160.00,2700.00,540.00,enrollments_2026-10-22.csv,3,2026-10-22,2026-10-22,5.25,same_day,1890.00,11340.00,2835.00
+E-1008,Rafael Lima,Spanish,no,monthly,no,,420.00,0.00,No discount,420.00,150.00,2670.00,2520.00,0.00,enrollments_2026-10-22.csv,4,2026-10-22,2026-10-22,5.25,same_day,2205.00,14017.50,0.00
+E-1009,Beatriz Souza,French,yes,upfront,no,,480.00,0.15,High discount,408.00,150.00,2598.00,2880.00,432.00,enrollments_2026-10-22.csv,5,2026-10-22,2026-10-22,5.25,same_day,2142.00,13639.50,2268.00
+E-1010,Diego Ferreira,English,no,monthly,no,PROMO10,450.00,0.00,No discount,450.00,150.00,2850.00,2700.00,0.00,enrollments_2026-10-22.csv,6,2026-10-22,2026-10-22,5.25,same_day,2362.50,14962.50,0.00

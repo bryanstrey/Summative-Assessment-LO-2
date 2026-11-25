@@ -1,0 +1,10 @@
+2026-11-25 20:31:41,410 INFO STARTED run=20261125_203141_409472 source_mode=live
+2026-11-25 20:31:41,410 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:41,410 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:41,415 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:41,415 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:41,419 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:41,420 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:41,420 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:41,422 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:41,423 ERROR FAILED: The exchange-rate API answered HTTP 500: server-side error at the provider.

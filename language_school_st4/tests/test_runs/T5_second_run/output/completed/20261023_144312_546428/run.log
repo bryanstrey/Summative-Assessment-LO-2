@@ -1,0 +1,14 @@
+2026-10-23 14:43:12,816 INFO STARTED run=20261023_144312_546428
+2026-10-23 14:43:12,816 INFO Input folder: tests/test_runs/T5_second_run/input | pattern: enrollments_*.csv
+2026-10-23 14:43:12,817 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:12,817 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:12,829 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-10-23 14:43:12,830 INFO Reading enrollments_2026-10-22.csv
+2026-10-23 14:43:12,837 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-10-23 14:43:12,838 INFO Validated batch: 2 files, 10 enrollments
+2026-10-23 14:43:12,839 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-10-23 14:43:12,985 INFO Wrote 2 processed CSV file(s)
+2026-10-23 14:43:13,007 INFO Wrote workbook enrollment_workbook.xlsx
+2026-10-23 14:43:13,025 INFO Verified CSVs and workbook: rows=10 total=25845.00
+2026-10-23 14:43:13,027 INFO Wrote report enrollment_report.txt
+2026-10-23 14:43:13,027 INFO COMPLETED run=20261023_144312_546428 enrollments=10 revenue=25845.00

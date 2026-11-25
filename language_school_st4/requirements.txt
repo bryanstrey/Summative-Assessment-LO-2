@@ -1,0 +1,6 @@
+# Install with:  python -m pip install -r requirements.txt
+# ST4 tested with Python 3.12, pandas 2.2.3 / 3.0.2, openpyxl 3.1.5.
+# ST5 tested with Python 3.13.18, pandas 3.0.5, openpyxl 3.1.5, requests 2.34.2.
+pandas
+openpyxl
+requests  # ST5: API calls

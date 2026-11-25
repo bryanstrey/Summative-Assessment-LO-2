@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203141_426537,2026-11-25 20:31:41,FAILED,live,,10,"The exchange-rate API answered HTTP 503: the service is unavailable; Retry-After=30. The provider asked to wait 30 s, longer than the 10 s this program accepts; try again later.",failed/20261125_203141_426537

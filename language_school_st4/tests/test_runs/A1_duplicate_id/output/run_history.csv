@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144313_853394,2026-10-23 14:43:14,FAILED,2,0,"Repeated enrollment_id across the batch: E-1001 (enrollments_2026-10-21.csv line 2, enrollments_2026-10-22.csv line 2)",failed/20261023_144313_853394

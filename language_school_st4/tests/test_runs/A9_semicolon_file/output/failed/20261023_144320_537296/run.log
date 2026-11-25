@@ -1,0 +1,7 @@
+2026-10-23 14:43:20,747 INFO STARTED run=20261023_144320_537296
+2026-10-23 14:43:20,747 INFO Input folder: tests/test_runs/A9_semicolon_file/input | pattern: enrollments_*.csv
+2026-10-23 14:43:20,748 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:20,748 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:20,755 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-10-23 14:43:20,755 INFO Reading enrollments_2026-10-22.csv
+2026-10-23 14:43:20,758 ERROR FAILED: enrollments_2026-10-22.csv: the file looks semicolon-separated; save it as a comma-separated UTF-8 CSV

@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144314_533464,2026-10-23 14:43:14,FAILED,2,0,enrollments_2026-10-21.csv: blank student_name on CSV line(s) [4],failed/20261023_144314_533464

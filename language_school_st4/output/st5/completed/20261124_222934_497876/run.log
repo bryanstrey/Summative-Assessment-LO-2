@@ -1,0 +1,14 @@
+2026-11-24 22:29:34,791 INFO STARTED run=20261124_222934_497876 source_mode=fixture
+2026-11-24 22:29:34,792 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-24 22:29:34,792 INFO Reading enrollments_2026-10-21.csv
+2026-11-24 22:29:34,797 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-24 22:29:34,797 INFO Reading enrollments_2026-10-22.csv
+2026-11-24 22:29:34,800 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-24 22:29:34,800 INFO Validated batch: 2 files, 10 enrollments
+2026-11-24 22:29:34,801 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-24 22:29:34,805 INFO Using frankfurter_FIXTURE_USDBRL_2026-10-14_2026-10-22_synthetic.json (acquired 2026-11-25T01:26:43+00:00)
+2026-11-24 22:29:34,805 INFO JSON structure: list with 7 item(s); first item fields: date:str, base:str, quote:str, rate:float
+2026-11-24 22:29:34,807 INFO Source mode fixture | business period 2026-10-21 to 2026-10-22 | rates file frankfurter_FIXTURE_USDBRL_2026-10-14_2026-10-22_synthetic.json
+2026-11-24 22:29:34,948 INFO Wrote integrated_enrollments.csv and enrollment_workbook_st5.xlsx
+2026-11-24 22:29:34,961 INFO Verified outputs: rows=10 USD=25845.00 BRL=135044.70
+2026-11-24 22:29:34,966 INFO COMPLETED run=20261124_222934_497876

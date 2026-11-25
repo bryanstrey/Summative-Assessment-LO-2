@@ -1,0 +1,12 @@
+2026-11-25 20:31:42,022 INFO STARTED run=20261125_203142_022264 source_mode=live
+2026-11-25 20:31:42,022 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:42,022 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:42,023 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:42,023 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:42,025 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:42,025 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:42,025 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:42,026 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:42,027 INFO HTTP 200, 69 bytes
+2026-11-25 20:31:42,027 INFO JSON structure: list with 1 item(s); first item fields: date:str, base:str, quote:str, rate:float
+2026-11-25 20:31:42,027 ERROR FAILED: Rate #1 (2026-10-21): 'rate' must be a positive number (-5.2).

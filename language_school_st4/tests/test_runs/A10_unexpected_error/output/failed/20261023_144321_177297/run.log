@@ -1,0 +1,17 @@
+2026-10-23 14:43:21,442 INFO STARTED run=20261023_144321_177297
+2026-10-23 14:43:21,442 INFO Input folder: tests/test_runs/A10_unexpected_error/input | pattern: enrollments_*.csv
+2026-10-23 14:43:21,442 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:21,443 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:21,448 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-10-23 14:43:21,448 INFO Reading enrollments_2026-10-22.csv
+2026-10-23 14:43:21,453 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-10-23 14:43:21,453 INFO Validated batch: 2 files, 10 enrollments
+2026-10-23 14:43:21,454 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-10-23 14:43:21,456 ERROR FAILED: unexpected error
+Traceback (most recent call last):
+  File "/mnt/user-data/outputs/language_school_st4/run_report.py", line 412, in main
+    by_course = build_course_summary(processed)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/user-data/outputs/language_school_st4/tests/run_tests.py", line 486, in broken
+    raise RuntimeError("simulated defect")
+RuntimeError: simulated defect

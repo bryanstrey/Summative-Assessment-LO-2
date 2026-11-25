@@ -1,0 +1,6 @@
+enrollment_id,student_name,course,sibling_enrolled,payment_method,renewal,coupon_code
+E-1006,Lucas Rocha,French,no,upfront,yes,
+E-1007,Julia Martins,English,yes,upfront,yes,PROMO5
+E-1008,Rafael Lima,Italian,no,monthly,no,
+E-1009,Beatriz Souza,French,yes,upfront,no,
+E-1010,Diego Ferreira,English,no,monthly,no,PROMO10

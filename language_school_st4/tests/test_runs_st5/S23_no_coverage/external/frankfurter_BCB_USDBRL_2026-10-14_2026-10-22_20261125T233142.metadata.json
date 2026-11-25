@@ -1,0 +1,25 @@
+{
+  "provider": "Banco Central do Brasil (PTAX), relayed by Frankfurter API v2",
+  "provider_key": "BCB",
+  "endpoint": "http://127.0.0.1:65220/v2/rates",
+  "parameters": {
+    "from": "2026-10-14",
+    "to": "2026-10-22",
+    "base": "USD",
+    "quotes": "BRL",
+    "providers": "BCB"
+  },
+  "http_status": 200,
+  "acquired_at": "2026-11-25T23:31:42+00:00",
+  "units": "BRL per 1 USD",
+  "base_currency": "USD",
+  "quote_currency": "BRL",
+  "use_conditions": "Public data, provided as is by Frankfurter; the underlying rates belong to the provider (Banco Central do Brasil) and its terms apply. Rates can be late, missing or revised. For informational budgeting only: not an accounting, tax or legal exchange rate (verify with the provider for those uses).",
+  "documentation": "https://frankfurter.dev/",
+  "response_structure": "list with 2 item(s); first item fields: date:str, base:str, quote:str, rate:float",
+  "rates_count": 2,
+  "first_rate_date": "2026-10-01",
+  "last_rate_date": "2026-10-02",
+  "response_sha256": "2a6cb5fa613a4a50d40db3c30ce8b9f10579edd077db488367f0164f906cbf87",
+  "requests_version": "2.34.2"
+}

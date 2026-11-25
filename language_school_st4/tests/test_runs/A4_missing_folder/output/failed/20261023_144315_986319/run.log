@@ -1,0 +1,3 @@
+2026-10-23 14:43:16,250 INFO STARTED run=20261023_144315_986319
+2026-10-23 14:43:16,251 INFO Input folder: tests/test_runs/A4_missing_folder/does_not_exist | pattern: enrollments_*.csv
+2026-10-23 14:43:16,251 ERROR FAILED: Input folder not found: tests/test_runs/A4_missing_folder/does_not_exist

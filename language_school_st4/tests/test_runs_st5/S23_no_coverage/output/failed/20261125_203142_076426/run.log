@@ -1,0 +1,15 @@
+2026-11-25 20:31:42,076 INFO STARTED run=20261125_203142_076426 source_mode=live
+2026-11-25 20:31:42,076 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:42,076 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:42,080 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:42,080 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:42,082 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:42,082 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:42,083 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:42,084 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:42,085 INFO HTTP 200, 136 bytes
+2026-11-25 20:31:42,085 INFO JSON structure: list with 2 item(s); first item fields: date:str, base:str, quote:str, rate:float
+2026-11-25 20:31:42,087 INFO Saved response frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233142.json (+ metadata)
+2026-11-25 20:31:42,087 INFO Source mode live | business period 2026-10-21 to 2026-10-22 | rates file frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233142.json
+2026-11-25 20:31:42,092 ERROR Enrollments without a rate listed in unmatched_enrollments.csv
+2026-11-25 20:31:42,092 ERROR FAILED: 10 of 10 enrollments have no exchange rate within 5 days before their date (2026-10-21, 2026-10-22).

@@ -1,0 +1,12 @@
+Console output of the two demonstration runs stored in output/st5/
+(run from the project folder; fixture = SYNTHETIC data, not real rates)
+
+> python run_workflow.py
+Run 20261124_222934_497876 COMPLETED (fixture mode): 10 enrollments, rates from frankfurter_FIXTURE_USDBRL_2026-10-14_2026-10-22_synthetic.json.
+Outputs: output/st5/completed/20261124_222934_497876
+(exit code 0)
+
+> python run_workflow.py --mode saved        (no real response has been saved yet)
+Run 20261124_222935_543881 FAILED (saved mode): No saved response in data/external. Run once with --mode live first.
+Details: output/st5/failed/20261124_222935_543881/run.log
+(exit code 1)

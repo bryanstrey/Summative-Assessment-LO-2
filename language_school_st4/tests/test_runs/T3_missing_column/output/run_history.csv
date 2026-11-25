@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144311_192548,2026-10-23 14:43:11,FAILED,2,0,enrollments_2026-10-22.csv: missing required column(s): ['course'],failed/20261023_144311_192548

@@ -1,0 +1,5 @@
+2026-10-23 14:43:20,060 INFO STARTED run=20261023_144319_821562
+2026-10-23 14:43:20,060 INFO Input folder: tests/test_runs/A8_blank_line_invalid/input | pattern: enrollments_*.csv
+2026-10-23 14:43:20,061 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:20,061 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:20,067 ERROR FAILED: enrollments_2026-10-21.csv: invalid course ['Italian'] on CSV line(s) [5]; allowed values: ['English', 'Spanish', 'French']

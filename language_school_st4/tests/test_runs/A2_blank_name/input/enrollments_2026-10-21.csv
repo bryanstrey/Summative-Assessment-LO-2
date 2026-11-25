@@ -1,0 +1,6 @@
+enrollment_id,student_name,course,sibling_enrolled,payment_method,renewal,coupon_code
+E-1001,Maria Silva,English,yes,upfront,no,PROMO5
+E-1002,John Smith,Spanish,no,monthly,yes,
+E-1003,,French,yes,monthly,no,
+E-1004,Pedro Alves,English,no,upfront,no,
+E-1005,Carla Mendes,Spanish,no,monthly,no,PROMO5

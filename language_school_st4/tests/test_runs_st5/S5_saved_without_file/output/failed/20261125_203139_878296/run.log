@@ -1,0 +1,9 @@
+2026-11-25 20:31:39,878 INFO STARTED run=20261125_203139_878296 source_mode=saved
+2026-11-25 20:31:39,878 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:39,878 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:39,879 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:39,879 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:39,880 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:39,881 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:39,881 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:39,882 ERROR FAILED: No saved response in tests/test_runs_st5/S5_saved_without_file/external. Run once with --mode live first.

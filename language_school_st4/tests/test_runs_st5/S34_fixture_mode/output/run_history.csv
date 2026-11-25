@@ -1,0 +1,3 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_732846,2026-11-25 20:31:42,COMPLETED,fixture,frankfurter_FIXTURE_USDBRL_2026-10-14_2026-10-22_synthetic.json,10,,completed/20261125_203142_732846
+20261125_203142_787853,2026-11-25 20:31:42,COMPLETED,fixture,frankfurter_FIXTURE_USDBRL_2026-10-14_2026-10-22_synthetic.json,10,,completed/20261125_203142_787853

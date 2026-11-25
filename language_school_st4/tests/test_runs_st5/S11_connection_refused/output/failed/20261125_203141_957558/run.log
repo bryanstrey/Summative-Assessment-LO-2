@@ -1,0 +1,12 @@
+2026-11-25 20:31:41,958 INFO STARTED run=20261125_203141_957558 source_mode=live
+2026-11-25 20:31:41,959 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:41,959 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:41,964 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:41,964 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:41,968 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:41,969 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:41,970 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:41,973 INFO Live request: http://127.0.0.1:65232/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:41,974 WARNING Attempt 1 failed (Could not connect to the exchange-rate API (http://127.0.0.1:65232/v2/rates): check the internet connection, a proxy or a firewall.) - retrying in 0 s
+2026-11-25 20:31:41,975 WARNING Attempt 2 failed (Could not connect to the exchange-rate API (http://127.0.0.1:65232/v2/rates): check the internet connection, a proxy or a firewall.) - retrying in 0 s
+2026-11-25 20:31:41,976 ERROR FAILED: Could not connect to the exchange-rate API (http://127.0.0.1:65232/v2/rates): check the internet connection, a proxy or a firewall. (gave up after 3 attempts)

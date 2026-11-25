@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203139_878296,2026-11-25 20:31:39,FAILED,saved,,10,No saved response in tests/test_runs_st5/S5_saved_without_file/external. Run once with --mode live first.,failed/20261125_203139_878296

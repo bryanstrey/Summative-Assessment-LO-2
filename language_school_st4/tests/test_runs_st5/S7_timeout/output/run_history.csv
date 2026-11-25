@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203139_889307,2026-11-25 20:31:41,FAILED,live,,10,The exchange-rate API did not answer within 0.5 s (http://127.0.0.1:65220/v2/rates). (gave up after 3 attempts),failed/20261125_203139_889307

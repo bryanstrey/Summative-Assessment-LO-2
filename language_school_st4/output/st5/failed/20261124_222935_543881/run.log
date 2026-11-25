@@ -1,0 +1,9 @@
+2026-11-24 22:29:35,620 INFO STARTED run=20261124_222935_543881 source_mode=saved
+2026-11-24 22:29:35,623 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-24 22:29:35,623 INFO Reading enrollments_2026-10-21.csv
+2026-11-24 22:29:35,646 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-24 22:29:35,646 INFO Reading enrollments_2026-10-22.csv
+2026-11-24 22:29:35,662 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-24 22:29:35,664 INFO Validated batch: 2 files, 10 enrollments
+2026-11-24 22:29:35,666 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-24 22:29:35,721 ERROR FAILED: No saved response in data/external. Run once with --mode live first.

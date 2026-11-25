@@ -1,0 +1,12 @@
+2026-11-25 20:31:42,001 INFO STARTED run=20261125_203142_000744 source_mode=live
+2026-11-25 20:31:42,001 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:42,001 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:42,002 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:42,002 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:42,004 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:42,004 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:42,005 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:42,006 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:42,006 INFO HTTP 200, 2 bytes
+2026-11-25 20:31:42,006 INFO JSON structure: list with 0 item(s); first item fields: n/a
+2026-11-25 20:31:42,006 ERROR FAILED: The API returned no rates for the requested period.

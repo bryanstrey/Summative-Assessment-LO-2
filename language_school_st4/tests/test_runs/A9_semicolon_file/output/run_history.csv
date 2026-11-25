@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144320_537296,2026-10-23 14:43:20,FAILED,2,0,enrollments_2026-10-22.csv: the file looks semicolon-separated; save it as a comma-separated UTF-8 CSV,failed/20261023_144320_537296

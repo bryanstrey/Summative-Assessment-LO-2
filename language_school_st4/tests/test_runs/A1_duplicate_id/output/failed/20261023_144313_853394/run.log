@@ -1,0 +1,8 @@
+2026-10-23 14:43:14,081 INFO STARTED run=20261023_144313_853394
+2026-10-23 14:43:14,082 INFO Input folder: tests/test_runs/A1_duplicate_id/input | pattern: enrollments_*.csv
+2026-10-23 14:43:14,083 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:14,083 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:14,091 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-10-23 14:43:14,091 INFO Reading enrollments_2026-10-22.csv
+2026-10-23 14:43:14,096 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-10-23 14:43:14,098 ERROR FAILED: Repeated enrollment_id across the batch: E-1001 (enrollments_2026-10-21.csv line 2, enrollments_2026-10-22.csv line 2)

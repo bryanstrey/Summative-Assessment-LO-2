@@ -1,0 +1,7 @@
+2026-10-23 14:43:11,436 INFO STARTED run=20261023_144311_192548
+2026-10-23 14:43:11,436 INFO Input folder: tests/test_runs/T3_missing_column/input | pattern: enrollments_*.csv
+2026-10-23 14:43:11,436 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-10-23 14:43:11,436 INFO Reading enrollments_2026-10-21.csv
+2026-10-23 14:43:11,443 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-10-23 14:43:11,443 INFO Reading enrollments_2026-10-22.csv
+2026-10-23 14:43:11,446 ERROR FAILED: enrollments_2026-10-22.csv: missing required column(s): ['course']

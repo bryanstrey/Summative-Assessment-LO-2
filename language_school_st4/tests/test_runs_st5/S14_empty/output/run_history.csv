@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_000744,2026-11-25 20:31:42,FAILED,live,,10,The API returned no rates for the requested period.,failed/20261125_203142_000744

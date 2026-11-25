@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_222186,2026-11-25 20:31:42,FAILED,live,,10,Expected JSON but the API sent 'text/html'.,failed/20261125_203142_222186

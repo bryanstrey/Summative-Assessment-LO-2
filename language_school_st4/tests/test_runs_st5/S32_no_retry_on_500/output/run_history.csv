@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_215731,2026-11-25 20:31:42,FAILED,live,,10,The exchange-rate API answered HTTP 500: server-side error at the provider.,failed/20261125_203142_215731

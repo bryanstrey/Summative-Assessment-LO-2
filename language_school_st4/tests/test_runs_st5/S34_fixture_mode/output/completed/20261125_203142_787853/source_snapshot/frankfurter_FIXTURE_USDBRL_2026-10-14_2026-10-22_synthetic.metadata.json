@@ -1,0 +1,26 @@
+{
+  "provider": "SYNTHETIC TEACHING FIXTURE - invented data, not market rates",
+  "provider_key": "FIXTURE",
+  "endpoint": "n/a - synthetic fixture (no request was made)",
+  "parameters": {
+    "from": "2026-10-14",
+    "to": "2026-10-22",
+    "base": "USD",
+    "quotes": "BRL",
+    "providers": "FIXTURE"
+  },
+  "http_status": 0,
+  "acquired_at": "2026-11-25T01:26:43+00:00",
+  "units": "BRL per 1 USD",
+  "base_currency": "USD",
+  "quote_currency": "BRL",
+  "use_conditions": "Invented for demonstration and tests. Never use as real exchange rates.",
+  "documentation": "https://frankfurter.dev/",
+  "response_structure": "list with 7 item(s); first item fields: date:str, base:str, quote:str, rate:float",
+  "rates_count": 7,
+  "first_rate_date": "2026-10-14",
+  "last_rate_date": "2026-10-22",
+  "response_sha256": "35644047e493e85e2c9e7485b526da85845a58c131a54d7db611f5eee0bb7907",
+  "requests_version": "2.34.2",
+  "synthetic": true
+}

@@ -1,0 +1,9 @@
+$ python run_report.py --input-dir data/demo_failure
+Run 20261023_143904_356322 FAILED: enrollments_2026-10-22.csv: invalid course ['Italian'] on CSV line(s) [4]; allowed values: ['English', 'Spanish', 'French']
+Details: output/failed/20261023_143904_356322/run.log
+[exit code: 1]
+
+$ python run_report.py
+Run 20261023_143906_424559 COMPLETED: 10 enrollments from 2 file(s).
+Outputs: output/completed/20261023_143906_424559
+[exit code: 0]

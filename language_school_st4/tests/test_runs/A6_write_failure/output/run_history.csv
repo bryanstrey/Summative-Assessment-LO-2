@@ -1,0 +1,3 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144317_447142,2026-10-23 14:43:18,COMPLETED,2,10,,completed/20261023_144317_447142
+20261023_144318_075638,2026-10-23 14:43:18,FAILED,2,10,simulated: workbook file is locked,failed/20261023_144318_075638

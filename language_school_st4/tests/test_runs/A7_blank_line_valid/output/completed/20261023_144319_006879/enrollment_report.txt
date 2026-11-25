@@ -1,0 +1,34 @@
+Global Languages Academy - Enrollment Batch Report
+==================================================
+Run: 20261023_144319_006879
+Status: COMPLETED
+Generated: 2026-10-23 14:43:19
+
+SCOPE
+Selection rule: files named enrollments_*.csv in tests/test_runs/A7_blank_line_valid/input
+Source files (2):
+  - enrollments_2026-10-21.csv (5 enrollments)
+  - enrollments_2026-10-22.csv (5 enrollments)
+Amounts are projected values for one 6-month semester, in USD.
+
+INDICATORS (calculated from the validated data)
+Enrollments: 10
+Projected semester revenue (USD): 25845.00
+Discounts granted (USD): 2205.00 (8.2% of list tuition)
+High-discount enrollments: 3 of 10 (30.0%)
+Renewals (enrollment fee waived): 3 of 10
+Top course by projected revenue: English (USD 10035.00, 38.8% of total)
+
+FINDING (interpretation, not a calculated value)
+3 of 10 enrollments received a High discount (more than 10%),
+and discounts reduced list tuition by 8.2%.
+Because discounts stack, the school may want to confirm that combining sibling,
+upfront and coupon discounts is intended. This report measures the discounts; it
+does not say whether they were appropriate.
+
+LIMITATIONS
+- Results cover only the 2 selected files; enrollments that were not
+  exported to the input folder are not represented.
+- Amounts are projections under the school's rules, not payments received.
+- 1 coupon code was not recognized and received no discount;
+  check the source files (see run.log).

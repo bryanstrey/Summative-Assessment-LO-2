@@ -1,0 +1,9 @@
+2026-11-25 20:31:42,827 INFO STARTED run=20261125_203142_827636 source_mode=fixture
+2026-11-25 20:31:42,827 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:42,827 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:42,829 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:42,829 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:42,830 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:42,830 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:42,830 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:42,831 ERROR FAILED: No saved response in tests/test_runs_st5/S37_missing_fixture/no_fixture_here. The synthetic fixture is missing from the project.

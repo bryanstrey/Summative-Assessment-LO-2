@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_files,enrollments,message,run_folder
+20261023_144311_858115,2026-10-23 14:43:12,FAILED,0,0,No files matching 'enrollments_*.csv' in tests/test_runs/T4_no_matching_files/input,failed/20261023_144311_858115

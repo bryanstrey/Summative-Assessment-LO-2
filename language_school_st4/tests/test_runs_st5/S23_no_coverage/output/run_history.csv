@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203142_076426,2026-11-25 20:31:42,FAILED,live,frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233142.json,10,"10 of 10 enrollments have no exchange rate within 5 days before their date (2026-10-21, 2026-10-22).",failed/20261125_203142_076426

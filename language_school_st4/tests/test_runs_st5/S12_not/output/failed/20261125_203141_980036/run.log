@@ -1,0 +1,11 @@
+2026-11-25 20:31:41,980 INFO STARTED run=20261125_203141_980036 source_mode=live
+2026-11-25 20:31:41,980 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:41,980 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:41,983 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:41,983 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:41,985 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:41,985 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:41,986 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:41,987 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:41,989 INFO HTTP 200, 24 bytes
+2026-11-25 20:31:41,989 ERROR FAILED: Exchange-rate API: the response is not valid JSON (Expecting value: line 1 column 1 (char 0)).

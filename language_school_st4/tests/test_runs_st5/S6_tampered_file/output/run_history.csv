@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203139_884193,2026-11-25 20:31:39,FAILED,saved,,10,frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233139.json does not match its metadata checksum (file changed after saving).,failed/20261125_203139_884193

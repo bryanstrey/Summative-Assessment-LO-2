@@ -1,0 +1,6 @@
+enrollment_id,student_name,course,sibling_enrolled,payment_method,renewal,coupon_code,base_tuition,discount_pct,discount_level,final_tuition,enrollment_fee,semester_total,list_tuition,discount_amount,source_file,source_line
+E-1006,Lucas Rocha,French,no,upfront,yes,,480.00,0.05,Low discount,456.00,0.00,2736.00,2880.00,144.00,enrollments_2026-10-22.csv,2
+E-1007,Julia Martins,English,yes,upfront,yes,PROMO5,450.00,0.20,High discount,360.00,0.00,2160.00,2700.00,540.00,enrollments_2026-10-22.csv,3
+E-1008,Rafael Lima,Spanish,no,monthly,no,,420.00,0.00,No discount,420.00,150.00,2670.00,2520.00,0.00,enrollments_2026-10-22.csv,4
+E-1009,Beatriz Souza,French,yes,upfront,no,,480.00,0.15,High discount,408.00,150.00,2598.00,2880.00,432.00,enrollments_2026-10-22.csv,5
+E-1010,Diego Ferreira,English,no,monthly,no,PROMO10,450.00,0.00,No discount,450.00,150.00,2850.00,2700.00,0.00,enrollments_2026-10-22.csv,6

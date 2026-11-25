@@ -1,0 +1,2 @@
+run_id,finished_at,status,source_mode,rates_file,enrollments,message,run_folder
+20261125_203141_991524,2026-11-25 20:31:41,FAILED,live,,10,"Unexpected JSON structure: expected a list of rates, got object with keys: rates.",failed/20261125_203141_991524

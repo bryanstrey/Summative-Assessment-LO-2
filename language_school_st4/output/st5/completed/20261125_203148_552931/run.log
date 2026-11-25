@@ -1,0 +1,16 @@
+2026-11-25 20:31:48,553 INFO STARTED run=20261125_203148_552931 source_mode=live
+2026-11-25 20:31:48,553 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:48,553 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:48,556 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:48,556 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:48,559 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:48,559 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:48,559 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:48,561 INFO Live request: https://api.frankfurter.dev/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:50,762 INFO HTTP 200, 441 bytes
+2026-11-25 20:31:50,763 INFO JSON structure: list with 7 item(s); first item fields: date:str, base:str, quote:str, rate:float
+2026-11-25 20:31:50,777 INFO Saved response frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233150.json (+ metadata)
+2026-11-25 20:31:50,777 INFO Source mode live | business period 2026-10-21 to 2026-10-22 | rates file frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233150.json
+2026-11-25 20:31:50,812 INFO Wrote integrated_enrollments.csv and enrollment_workbook_st5.xlsx
+2026-11-25 20:31:50,821 INFO Verified outputs: rows=10 USD=25845.00 BRL=130078.86
+2026-11-25 20:31:50,824 INFO COMPLETED run=20261125_203148_552931

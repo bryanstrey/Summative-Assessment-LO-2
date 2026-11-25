@@ -1,0 +1,12 @@
+2026-11-25 20:31:41,991 INFO STARTED run=20261125_203141_991524 source_mode=live
+2026-11-25 20:31:41,992 INFO Selected 2 file(s): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+2026-11-25 20:31:41,992 INFO Reading enrollments_2026-10-21.csv
+2026-11-25 20:31:41,994 INFO Validated enrollments_2026-10-21.csv: 5 rows
+2026-11-25 20:31:41,994 INFO Reading enrollments_2026-10-22.csv
+2026-11-25 20:31:41,995 INFO Validated enrollments_2026-10-22.csv: 5 rows
+2026-11-25 20:31:41,996 INFO Validated batch: 2 files, 10 enrollments
+2026-11-25 20:31:41,996 WARNING Unrecognized coupon 'PROMO10' (E-1010, enrollments_2026-10-22.csv line 6): no discount applied
+2026-11-25 20:31:41,997 INFO Live request: http://127.0.0.1:65220/v2 2026-10-14 -> 2026-10-22
+2026-11-25 20:31:41,998 INFO HTTP 200, 39 bytes
+2026-11-25 20:31:41,998 INFO JSON structure: object with keys: rates
+2026-11-25 20:31:41,998 ERROR FAILED: Unexpected JSON structure: expected a list of rates, got object with keys: rates.

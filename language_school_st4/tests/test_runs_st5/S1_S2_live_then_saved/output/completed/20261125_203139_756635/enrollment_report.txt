@@ -1,0 +1,45 @@
+Global Languages Academy - Enrollments with Exchange Rates (ST5)
+================================================================
+Run: 20261125_203139_756635
+Status: COMPLETED
+Generated: 2026-11-25 20:31:39
+SOURCE MODE: LIVE  - bytes returned by the real service in this run
+Rates file: frankfurter_BCB_USDBRL_2026-10-14_2026-10-22_20261125T233139.json
+Business period (enrollment dates): 2026-10-21 to 2026-10-22
+
+EXTERNAL INFORMATION USED
+Provider: Banco Central do Brasil (PTAX), relayed by Frankfurter API v2
+Endpoint: http://127.0.0.1:65220/v2/rates
+Parameters: from=2026-10-14, to=2026-10-22, base=USD, quotes=BRL, providers=BCB
+Acquired at (UTC): 2026-11-25T23:31:39+00:00
+Units: BRL per 1 USD (USD is the school's price currency)
+Rates in response: 7 (2026-10-14 to 2026-10-22)
+Use conditions: Public data, provided as is by Frankfurter; the underlying rates belong to the provider (Banco Central do Brasil) and its terms apply. Rates can be late, missing or revised. For informational budgeting only: not an accounting, tax or legal exchange rate (verify with the provider for those uses).
+
+INTERNAL DATA
+Enrollment files (2): enrollments_2026-10-21.csv, enrollments_2026-10-22.csv
+Enrollments: 10  (unchanged by the join)
+
+RESULT
+Projected semester revenue: USD 25845.00 = BRL 135044.70
+By enrollment date:
+  - enrollments of 2026-10-21: rate 5.2000 (published 2026-10-21, same day) -> 5 enrollments, USD 12831.00 = BRL 66721.20
+  - enrollments of 2026-10-22: rate 5.2500 (published 2026-10-22, same day) -> 5 enrollments, USD 13014.00 = BRL 68323.50
+By course:
+  - English: 4 enrollments, USD 10035.00 = BRL 52432.50
+  - French: 3 enrollments, USD 8076.00 = BRL 42261.90
+  - Spanish: 3 enrollments, USD 7734.00 = BRL 40350.30
+
+CHECKS PASSED
+- Row count and USD total identical before and after the join.
+- Every enrollment found a rate (same day or latest earlier day within 5 days).
+- Every BRL value recomputed independently from USD x rate.
+- CSV and workbook read back and compared with the integrated data.
+
+LIMITATIONS
+- The conversion is an estimate for budgeting. It is not the rate at which any
+  payment was or will be converted, and not an accounting or tax rate.
+- Every enrollment had a rate published on its own date.
+- The date of each enrollment is taken from the file name, not from a column.
+- Rates can be late or revised by the provider; a saved response is a snapshot.
+- Unrecognized coupons: 1 (no discount applied; see run.log).
