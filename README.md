@@ -1,7 +1,7 @@
 # Summative Assessment - LO 2
 
 **Course:** AI-Assisted Python for Business Problem Solving (Prof. Evandro Zatti)
-**Students:** Bryan Strey, Victor Luis Soares Brito
+**Students:** Bryan Strey and Victor Luis Soares Brito
 
 Global Languages Academy is a (fictional) language school. This repository contains two stages
 of the same project:
